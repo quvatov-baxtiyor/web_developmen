@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgba(3, 4, 87, 0.84);
+}
+h1 {
+    text-align: center;
+
+}
+.movie-time {
+    width: 200px;
+    display: flex;
+}
+.movie {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: 0.2s;
+    margin: 15px;
+}
+.movie:hover {
+    box-shadow: 0px 0px 10px 1px #fff;
+    border: 10px;
+}
+.movie.title {
+    font-weight: 700;
+    color: black;
+}
+.watch  {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: #333;
+}
+
+img {
+    transition: 0.3s ease;
+}
+
+img:hover {
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+.made {
+    text-align: center;
+}
+.made:hover {
+    box-shadow: 0px 0px 10px 1px whitesmoke;
+    bottom: 10px;
+}
